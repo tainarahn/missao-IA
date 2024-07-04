@@ -1,6 +1,6 @@
- }root{
-    --cor-fundo:#264661;
-    --cor-principal: #121638;
+:root{
+    --cor-fundo:#10385a;
+    --cor-principal: rgb(16, 49, 92);
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
 }
@@ -16,5 +16,9 @@ body{
     background-color: var(--cor-fundo);
     width: 90%;
     max-width: 600px;
-    
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: var(--cor-destaque);
 }
